@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler Design Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <button class="nav-btn active" data-tab="left-factoring">Left Factoring & Recursion</button>
+        <button class="nav-btn" data-tab="math-tree">Math Expression Trees</button>
+        <button class="nav-btn" data-tab="english-tree">English Grammar Trees</button>
+    </div>
+
+    <div class="container">
+        <!-- Left Factoring and Recursion Section -->
+        <div id="left-factoring" class="tab-content active">
+            <h1>Left Factoring and Recursion Eliminator</h1>
+            <p>Enter your grammar below to check for left factoring and recursion.</p>
+            <textarea id="grammar" rows="3" placeholder="e.g., S -> S a | b"></textarea>
+            <button onclick="processGrammar()">Process Grammar</button>
+            <div class="output" id="output"></div>
+            <button id="explainButton" style="display: none;" onclick="showExplanation()">Show Explanation</button>
+            <div class="description" id="explanation"></div>
+        </div>
+
+        <!-- Math Expression Trees Section -->
+        <div id="math-tree" class="tab-content">
+            <h1>Math Expression Tree Generator</h1>
+            <textarea id="mathGrammarInput" rows="5" placeholder="e.g., E -> E + T | T\nT -> T * F | F\nF -> id | num"></textarea>
+            <input type="text" id="mathStringInput" placeholder="e.g., id + num * id">
+            <div class="button-group">
+                <button onclick="generateTree('syntax', 'math')">Generate Syntax Tree</button>
+                <button onclick="generateTree('parse', 'math')">Generate Parse Tree</button>
+            </div>
+            <div id="mathError" class="error"></div>
+            <div id="mathTreeOutput" class="tree-container">
+                <svg width="100%" height="100%"></svg>
+            </div>
+        </div>
+
+        <!-- English Grammar Trees Section -->
+        <div id="english-tree" class="tab-content">
+            <h1>English Grammar Tree Generator</h1>
+            <textarea id="englishGrammarInput" rows="5" placeholder="e.g., S -> NP VP\nNP -> Det N\nVP -> V"></textarea>
+            <input type="text" id="englishStringInput" placeholder="e.g., The cat runs">
+            <div class="button-group">
+                <button onclick="generateTree('syntax', 'english')">Generate Syntax Tree</button>
+                <button onclick="generateTree('parse', 'english')">Generate Parse Tree</button>
+            </div>
+            <div id="englishError" class="error"></div>
+            <div id="englishTreeOutput" class="tree-container">
+                <svg width="100%" height="100%"></svg>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
