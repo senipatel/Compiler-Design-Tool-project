@@ -11,9 +11,6 @@ A web-based tool for visualizing and processing grammars and expressions, featur
 - **Modern Design**: Clean, responsive UI with a gradient theme, built with CSS.
 - **Interactive Visualization**: Uses D3.js to render tree structures dynamically.
 
-## Demo
-
-You can try the live demo [here](Replace with your GitHub Pages link or hosting URL).
 
 ## Installation
 
