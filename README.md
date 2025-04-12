@@ -13,7 +13,7 @@ A web-based tool for visualizing and processing grammars and expressions, featur
 
   
 ## live demo
-https://senipatel.github.io/Compiler-Design-Tool-project/
+https://cd.senipatel.vercel.app
 
 ## Installation
 
