@@ -12,17 +12,17 @@ A web-based tool designed to assist in understanding and visualizing key concept
 
 ## ✨ Features
 
-- **Left Factoring and Left Recursion Eliminator**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+- **Left Factoring and Left Recursion Eliminator**: contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
 
-- **Math Expression Trees**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
+- **Math Expression Trees**: contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
 
-- **English Grammar Trees**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+- **English Grammar Trees**: contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
 
-- **Tabbed Interface**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
+- **Tabbed Interface**: contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
 
-- **Modern Design**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+- **Modern Design**: contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
 
-- **Interactive Visualization**: :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
+- **Interactive Visualization**: contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
 
 ---
 
