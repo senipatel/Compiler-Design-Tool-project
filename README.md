@@ -6,7 +6,7 @@ A web-based tool designed to assist in understanding and visualizing key concept
 
 ## 🌐 Live Demo
 
-:[cd.senipatel.vercel.app](https://cd.senipatel.vercel.app)
+[cd.senipatel.vercel.app](https://cd.senipatel.vercel.app)
 
 ---
 
