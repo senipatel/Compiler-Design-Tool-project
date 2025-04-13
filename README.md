@@ -1,24 +1,59 @@
-# Compiler-Design-Tool-project
+# 🛠️ Compiler Design Tool Project
 
-A web-based tool for visualizing and processing grammars and expressions, featuring left factoring and recursion elimination, math expression trees, and English grammar trees.
+A web-based tool designed to assist in understanding and visualizing key concepts in compiler design. This application offers functionalities such as grammar transformation, expression tree generation, and syntax tree visualization for both mathematical expressions and English sentences.&#8203;:contentReference[oaicite:2]{index=2}
 
-## Features
+---
 
-- **Left Factoring and Left Recursion Eliminator**: Removes left recursion and left factoring from a given grammar, making it suitable for top-down parsing.
-- **Math Expression Trees**: Generates syntax and parse trees for mathematical expressions, visualizing operator precedence and structure.
-- **English Grammar Trees**: Creates syntax and parse trees for English sentences based on a context-free grammar, with distinct levels of detail.
-- **Tabbed Interface**: Navigate between features without page reloads using a responsive navbar.
-- **Modern Design**: Clean, responsive UI with a gradient theme, built with CSS.
-- **Interactive Visualization**: Uses D3.js to render tree structures dynamically.
+## 🌐 Live Demo
 
-  
-## live demo
-https://cd.senipatel.vercel.app
+:contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
 
-## Installation
+---
 
-### Clone the Repository
+## ✨ Features
 
-```bash
-git clone https://github.com/your-username/compiler-design-tool.git
-cd compiler-design-tool
+- **Left Factoring and Left Recursion Eliminator**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+
+- **Math Expression Trees**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
+
+- **English Grammar Trees**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+
+- **Tabbed Interface**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
+
+- **Modern Design**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+
+- **Interactive Visualization**: :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend**: :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
+- **Visualization**: :contentReference[oaicite:19]{index=19}&#8203;:contentReference[oaicite:20]{index=20}
+- **Deployment**: :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
+
+---
+
+## 🚀 Getting Started
+
+To run the application locally:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/senipatel/Compiler-Design-Tool-project.git
+   cd Compiler-Design-Tool-project
+
+2. Open index.html in your web browser:
+   - You can simply double-click the index.html file, or serve it using a local development server:
+
+---
+
+## 👤 Author
+Seni Patel – GitHub Profile
+
+---
+
+## 🙌 Acknowledgements
+  - Inspired by the need to provide educational tools for compiler design concepts.​
+  - Utilizes open-source technologies to facilitate learning and visualization.
